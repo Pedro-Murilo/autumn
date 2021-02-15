@@ -1,9 +1,16 @@
+$primary-color: #fff2e6;
+
+$primary-color-text: #222;
+$secondary-color-text: #eb8c34;
+
 *,
 ::after,
 ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 html {
@@ -12,8 +19,46 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  list-style: none;
-  color: #000;
+  color: $primary-color-text;
   font-size: 1.6rem;
+  background: $primary-color;
+}
+
+.header {
+  width: 100%;
+  height: 6rem;
+  padding-top: 1.6rem;
+  background: rgba(235, 140, 52, 0.8);
+  backdrop-filter: blur(20px);
+  position: fixed;
+}
+
+.navbar {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .logo {
+    font-size: 2.4rem;
+    color: $primary-color-text;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-link {
+    margin: 0 1rem;
+    color: $primary-color-text;
+  }
+}
+
+.container-section {
+  .imagem {
+    max-width: 100%;
+  }
 }
