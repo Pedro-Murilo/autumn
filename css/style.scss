@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   color: $primary-color-text;
   font-size: 1.6rem;
   background: $white-orange;
@@ -52,7 +52,7 @@ body {
   align-items: center;
 
   .logo {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: $primary-color-text;
   }
 
@@ -110,7 +110,7 @@ body {
   filter: drop-shadow(22px -5px 7px rgba(0, 0, 0, 0.5));
 }
 
-.card-section {
+.enjoy-section {
   max-width: 90rem;
   margin: 0 auto;
   padding: 6rem 0;
@@ -142,20 +142,28 @@ body {
     animation: leaf2 10s infinite alternate-reverse ease-in;
   }
 
-  .card-container {
+  .enjoy-container {
     display: flex;
     justify-content: center;
     position: relative;
   }
 
-  .card-content {
+  .enjoy-content {
     padding: 6rem 0;
-    width: 50%;
+    width: 55%;
+    font-size: 1.8rem;
+    letter-spacing: 0.7px;
+    text-align: left;
+    line-height: 1.2;
     color: $secondary-color-text;
     position: absolute;
+
+    .enjoy-content-item-2 {
+      padding-top: 1.5rem;
+    }
   }
 
-  .card-image {
+  .enjoy-image {
     position: absolute;
     width: 100%;
     top: 0.5rem;

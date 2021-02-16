@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   color: #222;
   font-size: 1.6rem;
   background: #fff2e6;
@@ -53,7 +53,7 @@ body {
 }
 
 .navbar .logo {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   color: #222;
 }
 
@@ -122,20 +122,20 @@ body {
           filter: drop-shadow(22px -5px 7px rgba(0, 0, 0, 0.5));
 }
 
-.card-section {
+.enjoy-section {
   max-width: 90rem;
   margin: 0 auto;
   padding: 6rem 0;
   position: relative;
 }
 
-.card-section h2 {
+.enjoy-section h2 {
   text-align: center;
   font-size: 4rem;
   color: #f07122;
 }
 
-.card-section h2::before {
+.enjoy-section h2::before {
   content: "";
   display: block;
   position: absolute;
@@ -146,7 +146,7 @@ body {
   border-top: 5px solid #f07122;
 }
 
-.card-section .leaf2 {
+.enjoy-section .leaf2 {
   position: absolute;
   top: -2.5rem;
   right: 14.5rem;
@@ -156,7 +156,7 @@ body {
   animation: leaf2 10s infinite alternate-reverse ease-in;
 }
 
-.card-section .card-container {
+.enjoy-section .enjoy-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,14 +166,22 @@ body {
   position: relative;
 }
 
-.card-section .card-content {
+.enjoy-section .enjoy-content {
   padding: 6rem 0;
-  width: 50%;
+  width: 55%;
+  font-size: 1.8rem;
+  letter-spacing: 0.7px;
+  text-align: left;
+  line-height: 1.2;
   color: #eb8c34;
   position: absolute;
 }
 
-.card-section .card-image {
+.enjoy-section .enjoy-content .enjoy-content-item-2 {
+  padding-top: 1.5rem;
+}
+
+.enjoy-section .enjoy-image {
   position: absolute;
   width: 100%;
   top: 0.5rem;
