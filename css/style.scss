@@ -11,8 +11,14 @@ $tertiary-color-text: #f07122;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
+}
+
+a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 html {
@@ -46,7 +52,7 @@ body {
   align-items: center;
 
   .logo {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     color: $primary-color-text;
   }
 
@@ -57,7 +63,7 @@ body {
   }
 
   .nav-link {
-    margin: 0 1rem;
+    padding: 1rem;
     color: $primary-color-text;
   }
 }
@@ -75,11 +81,24 @@ body {
   align-items: center;
   clip-path: circle(175vh at 50% -75vh);
   opacity: 0.85;
+}
 
+.title {
   h1 {
     text-align: center;
+    position: relative;
     font-size: 8.8rem;
     color: $white-orange-dark;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: -1.5rem;
+      right: 8.2rem;
+      width: 45%;
+      border-top: 5px solid $white-orange;
+    }
   }
 }
 
@@ -101,6 +120,26 @@ body {
     text-align: center;
     font-size: 4rem;
     color: $tertiary-color-text;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 39.8rem;
+      width: 10%;
+      height: 27%;
+      border-top: 5px solid $tertiary-color-text;
+    }
+  }
+
+  .leaf2 {
+    position: absolute;
+    top: -2.5rem;
+    right: 14.5rem;
+    width: 15%;
+    transform: rotate(0);
+    animation: leaf2 10s infinite alternate-reverse ease-in;
   }
 
   .card-container {
@@ -135,5 +174,14 @@ body {
   }
   to {
     transform: translateY(0) rotate(100deg);
+  }
+}
+
+@keyframes leaf2 {
+  from {
+    transform: translateY(0) rotate(0);
+  }
+  to {
+    transform: translateY(10px) rotate(90deg);
   }
 }
