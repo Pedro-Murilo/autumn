@@ -108,7 +108,7 @@ body {
   display: block;
   position: absolute;
   bottom: -1.5rem;
-  right: 8.2rem;
+  right: 25%;
   width: 45%;
   border-top: 5px solid #fff2e6;
 }
@@ -140,7 +140,7 @@ body {
   display: block;
   position: absolute;
   bottom: 0;
-  right: 39.8rem;
+  right: 45%;
   width: 10%;
   height: 27%;
   border-top: 5px solid #f07122;
