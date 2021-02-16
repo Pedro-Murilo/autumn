@@ -35,7 +35,7 @@ body {
 
 .header {
   width: 100%;
-  height: 6rem;
+  height: 6.5rem;
   padding-top: 1.6rem;
   background: rgba(235, 140, 52, 0.8);
   backdrop-filter: blur(20px);
@@ -69,7 +69,7 @@ body {
 }
 
 .image-section {
-  margin-top: 6rem;
+  margin-top: 6.5rem;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -79,7 +79,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  clip-path: circle(175vh at 50% -75vh);
+  clip-path: circle(450vh at 50% -350vh);
   opacity: 0.85;
 }
 
@@ -152,6 +152,7 @@ body {
     padding: 6rem 0;
     width: 55%;
     font-size: 1.8rem;
+    font-weight: 400;
     letter-spacing: 0.7px;
     text-align: left;
     line-height: 1.2;
@@ -192,4 +193,123 @@ body {
   to {
     transform: translateY(10px) rotate(90deg);
   }
+}
+
+.slider {
+  width: 96rem;
+  height: 55rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 22rem auto;
+}
+
+.slides {
+  width: 500%;
+  height: 55rem;
+  display: flex;
+
+  input {
+    display: none;
+  }
+
+  .slide {
+    width: 20%;
+    transition: 2s;
+
+    img {
+      width: 96rem;
+      height: 55rem;
+    }
+  }
+}
+
+.navigation-manual {
+  position: absolute;
+  width: 96rem;
+  margin-top: -4rem;
+  display: flex;
+  justify-content: center;
+
+  .manual-btn {
+    border: 2px solid $secondary-color-text;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 1s;
+
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+
+    &:hover {
+      background: $secondary-color-text;
+    }
+  }
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+#radio5:checked ~ .first {
+  margin-left: -80%;
+}
+
+#radio6:checked ~ .first {
+  margin-left: -100%;
+}
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 96rem;
+  justify-content: center;
+  margin-top: 51rem;
+
+  div {
+    border: 2px solid $tertiary-color-text;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  div:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: $secondary-color-text;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: $secondary-color-text;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: $secondary-color-text;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: $secondary-color-text;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+  background: $secondary-color-text;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6 {
+  background: $secondary-color-text;
 }
