@@ -122,6 +122,194 @@ body {
           filter: drop-shadow(22px -5px 7px rgba(0, 0, 0, 0.5));
 }
 
+.leaf2-tree,
+.leaf3-tree,
+.leaf4-tree,
+.leaf5-tree,
+.leaf6-tree,
+.leaf7-tree,
+.leaf8-tree,
+.leaf9-tree,
+.leaf10-tree {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.leaf2-tree {
+  top: 40%;
+  left: 55%;
+  width: 3%;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  -webkit-filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-animation: leaf2-tree 9s infinite ease-in-out;
+          animation: leaf2-tree 9s infinite ease-in-out;
+}
+
+.leaf3-tree {
+  top: 15%;
+  left: 35%;
+  width: 3%;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  -webkit-filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-animation: leaf3 13s infinite ease-in-out;
+          animation: leaf3 13s infinite ease-in-out;
+}
+
+.leaf4-tree {
+  top: 25%;
+  left: 55%;
+  width: 3%;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  -webkit-filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-animation: leaf4 10s infinite ease-in-out;
+          animation: leaf4 10s infinite ease-in-out;
+}
+
+.leaf5-tree {
+  top: 5%;
+  left: 75%;
+  width: 3%;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  -webkit-filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-animation: leaf4 20s infinite ease-in-out;
+          animation: leaf4 20s infinite ease-in-out;
+}
+
+.leaf6-tree {
+  top: 5%;
+  left: 55%;
+  width: 3%;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  -webkit-filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-animation: leaf4 15s infinite ease-in-out;
+          animation: leaf4 15s infinite ease-in-out;
+}
+
+.leaf7-tree {
+  top: 30%;
+  left: 15%;
+  width: 3%;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  -webkit-filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-animation: leaf4 13s infinite ease-in-out;
+          animation: leaf4 13s infinite ease-in-out;
+}
+
+.leaf8-tree {
+  top: 25%;
+  left: 90%;
+  width: 3%;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  -webkit-filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-animation: leaf4 8s infinite ease-in-out;
+          animation: leaf4 8s infinite ease-in-out;
+}
+
+.leaf9-tree {
+  top: 15%;
+  left: 85%;
+  width: 3%;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  -webkit-filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-animation: leaf4 14s infinite ease-in-out;
+          animation: leaf4 14s infinite ease-in-out;
+}
+
+.leaf10-tree {
+  top: 5%;
+  left: 55%;
+  width: 3%;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  -webkit-filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
+  -webkit-animation: leaf4 17s infinite ease-in-out;
+          animation: leaf4 17s infinite ease-in-out;
+}
+
+@-webkit-keyframes leaf2-tree {
+  from {
+    -webkit-transform: translateY(0) rotate(210deg);
+            transform: translateY(0) rotate(210deg);
+  }
+  to {
+    -webkit-transform: translateY(1000px) rotate(240deg);
+            transform: translateY(1000px) rotate(240deg);
+  }
+}
+
+@keyframes leaf2-tree {
+  from {
+    -webkit-transform: translateY(0) rotate(210deg);
+            transform: translateY(0) rotate(210deg);
+  }
+  to {
+    -webkit-transform: translateY(1000px) rotate(240deg);
+            transform: translateY(1000px) rotate(240deg);
+  }
+}
+
+@-webkit-keyframes leaf3 {
+  from {
+    -webkit-transform: translateY(0) rotate(210deg);
+            transform: translateY(0) rotate(210deg);
+  }
+  to {
+    -webkit-transform: translateY(1000px) rotate(240deg);
+            transform: translateY(1000px) rotate(240deg);
+  }
+}
+
+@keyframes leaf3 {
+  from {
+    -webkit-transform: translateY(0) rotate(210deg);
+            transform: translateY(0) rotate(210deg);
+  }
+  to {
+    -webkit-transform: translateY(1000px) rotate(240deg);
+            transform: translateY(1000px) rotate(240deg);
+  }
+}
+
+@-webkit-keyframes leaf4 {
+  from {
+    -webkit-transform: translateY(0) rotate(210deg);
+            transform: translateY(0) rotate(210deg);
+  }
+  to {
+    -webkit-transform: translateY(1000px) rotate(240deg);
+            transform: translateY(1000px) rotate(240deg);
+  }
+}
+
+@keyframes leaf4 {
+  from {
+    -webkit-transform: translateY(0) rotate(210deg);
+            transform: translateY(0) rotate(210deg);
+  }
+  to {
+    -webkit-transform: translateY(1000px) rotate(240deg);
+            transform: translateY(1000px) rotate(240deg);
+  }
+}
+
 .enjoy-section {
   max-width: 90rem;
   margin: 0 auto;
