@@ -245,6 +245,8 @@ body {
   border-radius: 0.5rem;
   overflow: hidden;
   margin: 22rem auto;
+  -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 .slides {
@@ -369,5 +371,47 @@ body {
 
 #radio6:checked ~ .navigation-auto .auto-btn6 {
   background: #eb8c34;
+}
+
+.footer {
+  text-align: center;
+  height: 7rem;
+  font-size: 1.8rem;
+  margin-top: -10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer a {
+  color: #222;
+}
+
+.footer .socials {
+  padding: 0 0 0 5.5rem;
+  color: #222;
+}
+
+.footer .socials a {
+  margin: 0 5px;
+}
+
+.footer p {
+  letter-spacing: 1.1px;
+  font-weight: 600;
+}
+
+.footer p:nth-child(1) {
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.footer p:nth-child(2) {
+  padding: 0 0 1.5rem 0;
 }
 /*# sourceMappingURL=style.css.map */
