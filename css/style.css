@@ -146,6 +146,8 @@ body {
           filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   -webkit-animation: leaf2-tree 9s infinite ease-in-out;
           animation: leaf2-tree 9s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .leaf3-tree {
@@ -158,6 +160,8 @@ body {
           filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   -webkit-animation: leaf3 13s infinite ease-in-out;
           animation: leaf3 13s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .leaf4-tree {
@@ -170,6 +174,8 @@ body {
           filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   -webkit-animation: leaf4 10s infinite ease-in-out;
           animation: leaf4 10s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .leaf5-tree {
@@ -182,6 +188,8 @@ body {
           filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   -webkit-animation: leaf4 20s infinite ease-in-out;
           animation: leaf4 20s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .leaf6-tree {
@@ -194,6 +202,8 @@ body {
           filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   -webkit-animation: leaf4 15s infinite ease-in-out;
           animation: leaf4 15s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .leaf7-tree {
@@ -206,6 +216,8 @@ body {
           filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   -webkit-animation: leaf4 13s infinite ease-in-out;
           animation: leaf4 13s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .leaf8-tree {
@@ -218,6 +230,8 @@ body {
           filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   -webkit-animation: leaf4 8s infinite ease-in-out;
           animation: leaf4 8s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .leaf9-tree {
@@ -230,6 +244,8 @@ body {
           filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   -webkit-animation: leaf4 14s infinite ease-in-out;
           animation: leaf4 14s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .leaf10-tree {
@@ -242,6 +258,8 @@ body {
           filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   -webkit-animation: leaf4 17s infinite ease-in-out;
           animation: leaf4 17s infinite ease-in-out;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 @-webkit-keyframes leaf2-tree {

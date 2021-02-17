@@ -135,6 +135,7 @@ body {
   left: 55%;
   @include dropshadow();
   animation: leaf2-tree 9s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 .leaf3-tree {
@@ -142,6 +143,7 @@ body {
   left: 35%;
   @include dropshadow();
   animation: leaf3 13s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 .leaf4-tree {
@@ -149,6 +151,7 @@ body {
   left: 55%;
   @include dropshadow();
   animation: leaf4 10s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 .leaf5-tree {
@@ -156,6 +159,7 @@ body {
   left: 75%;
   @include dropshadow();
   animation: leaf4 20s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 .leaf6-tree {
@@ -163,6 +167,7 @@ body {
   left: 55%;
   @include dropshadow();
   animation: leaf4 15s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 .leaf7-tree {
@@ -170,6 +175,7 @@ body {
   left: 15%;
   @include dropshadow();
   animation: leaf4 13s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 .leaf8-tree {
@@ -177,6 +183,7 @@ body {
   left: 90%;
   @include dropshadow();
   animation: leaf4 8s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 .leaf9-tree {
@@ -184,6 +191,7 @@ body {
   left: 85%;
   @include dropshadow();
   animation: leaf4 14s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 .leaf10-tree {
@@ -191,6 +199,7 @@ body {
   left: 55%;
   @include dropshadow();
   animation: leaf4 17s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 @keyframes leaf2-tree {
