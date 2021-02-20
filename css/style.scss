@@ -469,3 +469,70 @@ body {
     padding: 0 0 1.5rem 0;
   }
 }
+
+@media screen and (max-width: 995px) {
+  .slider {
+    width: 75%;
+  }
+
+  .image-section {
+    overflow: hidden;
+  }
+
+  .navigation-manual,
+  .navigation-auto {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .enjoy-container {
+    margin-bottom: 6rem;
+  }
+
+  .enjoy-section {
+    h2::before {
+      top: 55%;
+    }
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .enjoy-container {
+    margin-bottom: 10rem;
+  }
+
+  .title {
+    h1 {
+      font-size: 4.8rem;
+    }
+  }
+
+  .navigation-manual {
+    .manual-btn {
+      padding: 0.5rem;
+
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .navigation-auto {
+    div:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .enjoy-container {
+    margin-bottom: 15rem;
+  }
+
+  .enjoy-section {
+    h2::before {
+      top: 40%;
+    }
+  }
+}
